@@ -8,6 +8,7 @@ function App(){
     return(
         <div>
             <Header name="Abdikadir" color="red"/>
+            <Main greetings="Morning"/>
 
         </div>
     );
