@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import  Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar'
 
-function Header(){
+function App(){
     return(
-        <h1>Hello World</h1>
+        <div>
+            <Header name="Abdikadir" color="red"/>
+
+        </div>
     );
 }
-function App() {
- return <Header />
-}
+
 
 export default App;
+
+// props.title=Child component
